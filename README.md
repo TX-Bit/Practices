@@ -1,1 +1,2 @@
-# Practices
+Tänne laitan omia koodaus-harjoituksiani.
+
