@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<!--Mikko Möttönen, 7.6.2021-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Nordic Water</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo-container">
+                <img src="logo.png" " alt="logo" />
+                
+            </div>
+            </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="sap.html">Birch sap</a></li>
+                <li><a class="nav-link" href="about.html">About us</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+<main>
+<section class="presentation">
+<div class="introduction">
+<div class="textt">
+<h1>Explore drink from the nature</h1>
+<p>Birch sap
+</p>
+</div>
+<div class="cta">
+    <button class="cta-select" onclick="location.href='sap.html'"">Find Out More</button>
+    
+</div>
+</div>
+<div class="cover">
+    <img src="glass.jpg" alt="glass" />
+
+</div>
+<script>                                                              // "lainattu" W3Schoolista
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
+</section>
+</main>
+
+</body>
+
+</html>

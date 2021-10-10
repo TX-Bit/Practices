@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<!--Mikko Möttönen, 7.6.2021-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Nordic Water</title>
+</head>
+<body>
+<header>
+    <a href="index.html">
+        <div class="logo-container">
+            <img src="logo.png" " alt="logo" />
+            
+        </div>
+        </a>
+    <nav>
+        <ul class="nav-links">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="sap.html">Birch sap</a></li>
+            <li><a class="nav-link" href="about.html">About us</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#" class="fa fa-youtube"></a>
+</header>
+<main>
+<section class="about">
+   
+<div>
+<h2>Nordic Water</h2>
+
+</br>
+<p>Our mission is to make products, that are healthy, sustainable and natural.</p>
+</br>
+<p>Most of our products are exported abroad. Look <button class="but" id="myBtn">here</button> where we export.</p>
+</br>
+<p>Our raw material, birch sap, is drained directly from trees located in pure nature, in northern Savonia, Finland.</p>
+</div>
+<video class="cover" width="640" height="600" autoplay loop>
+    <source src="birch.mp4" type="video/mp4">
+     </video> 
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="graph.png">
+  </div>
+  
+<script>                                                              // "lainattu" W3Schoolista
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+</script>
+
+</section>
+</main>
+
+</body>
+
+</html>

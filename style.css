@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+     background: linear-gradient(to right, #ffffff, #414040);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header
+{
+    display: flex;
+    width: 90%;
+    height: 15vh;
+    margin:auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links
+ {
+     display:flex;
+
+ }
+
+nav {
+    flex:5;
+}
+.nav-links {
+display:flex;
+justify-content: space-between;    
+list-style: none;
+margin-left: 20vh;
+margin-right: 20vh;
+}
+.nav-link {
+    color: rgb(24, 14, 14);
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.presentation {
+    display: flex;
+    width: 80%;
+    margin:auto;
+    min-height: 75vh;
+    align-items: center;
+
+}
+.introduction {
+    flex: 1;
+}
+
+  .textt {
+    margin-top: 5px;
+    font-size: 22px;
+    color: #15141a;
+
+}
+.textt h1 {
+    font-size: 36px;
+    font-weight: 500;
+    
+}
+.textt h2 {
+    font-size: 32px;
+    font-weight: 100;
+    min-height: 10vh;
+    
+}
+
+.textt p {
+    font-size: 14px;
+    color: rgb(14, 29, 14);
+}
+.cta {
+    padding: 50px 0px 0px 0px;
+
+}
+.cta-select {
+    border: 2px solid #c36cbb;
+    background: #818181;
+    color:rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: large;
+      
+}
+.cta-select:hover
+{
+    background-color:#000000;
+}
+.cover {
+    flex:1;
+}
+.cover img {
+height: 70vh;
+border-radius: 5%;
+}
+
+input[type=text], select, textarea {
+    width: 80%; 
+    padding: 10px;
+    border: 1px solid rgb(110, 93, 93);
+    border-radius: 4px;
+    box-sizing:border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+  
+
+  input[type=submit] {
+    background-color: #818181;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+
+  .modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .but {
+      border: none;
+      background: none;
+      color:rgb(110, 0, 0);
+      font-size: 18px;
+    }
+
+  .about {
+    display: flex;
+    width: 85%;
+    margin:auto;
+    min-height: 55vh;
+    align-items: center;
+  }
+  .about p {
+      color: rgb(1, 85, 85);
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
